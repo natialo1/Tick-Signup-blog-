@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body {
+    background-image: url("images/bg-intro-desktop.png"), url("paper.gif");
+    background-color: rgb(240, 116, 116);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 100px;
+    height: 100vh;
+    font-family: 'Nunito', sans-serif;
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    width: 100%;
+}
+
+.formdiv {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    border: 30%;
+    width: 250px;
+    height: auto;
+}
+
+
+.box1 h1 {
+  font-size: 2rem;
+  text-align: justify;
+  font-family: 'Nunito', sans-serif;
+}
+.box1 p {
+  text-align: justify;
+  font-family: 'Nunito', sans-serif;
+}
+
+
+.Try-it {
+    background-color: rgb(62, 62, 153);
+    border-radius: 10px;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Nunito', sans-serif;
+}
+input {
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 7px;
+    box-sizing: border-box;
+    justify-content: center;
+    width: 250px;
+    outline: none;
+    border: 1px solid rgba(153, 153, 153, 0.527);
+    font-family: 'Nunito', sans-serif;
+}
+input::placeholder {
+  color: #999;
+}
+button {
+    background-color: rgb(66, 168, 109);
+    text-transform: uppercase;
+    border-radius: 5px;
+    /* padding: 2px; */
+    width: 250px;
+    color: white;
+    height: 40px;
+    outline: none;
+    border: none;
+    margin-top: 1rem;
+    font-family: 'Nunito', sans-serif;
+}
+.p2 {
+    color: #000;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 1rem;
+}
+span {
+    color: red;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  body {
+    
+  }
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+  }
+  .box1 p, .box1 h1 {
+    text-align: center;
+  }
+  
+}
